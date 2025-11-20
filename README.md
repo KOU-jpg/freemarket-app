@@ -136,3 +136,19 @@ STRIPE_WEBHOOK_SECRET=*****
 - テストユーザー3
     - email:test3@example.com
     - password:password# SubmitProtest
+
+
+## 画面設計
+- 商品一覧画面（トップ画面）：http://localhost/	
+- 商品一覧画面（トップ画面）_マイリスト：http://localhost/?page=mylist	パラメーターとして記載
+- 会員登録画面：http://localhost/register	
+- ログイン画面：http://localhost/login	
+- 商品詳細画面：http://localhost/item/:item_id	
+- 商品購入画面：http://localhost/purchase/:item_id	
+- 送付先住所変更画面：http://localhost/purchase/address/:item_id	
+- 商品出品画面：http://localhost/sell	
+- プロフィール画面：http://localhost/mypage	
+- プロフィール編集画面（設定画面）：http://localhost/mypage/profile	
+- プロフィール画面_購入した商品一覧：http://localhost/mypage?page=buy	パラメーターとして記載
+- プロフィール画面_出品した商品一覧：http://localhost/mypage?page=sell	パラメーターとして記載
+- 取引チャット画面表示：http://localhost/item/message/{item_id}

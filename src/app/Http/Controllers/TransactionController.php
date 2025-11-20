@@ -113,7 +113,7 @@ class TransactionController extends Controller
     }
 
 
-    // 取引メッセージ更新
+// 取引メッセージ更新
     public function update(Item $item, TransactionMessage $message, Request $request)
     {
         // バリデーション
